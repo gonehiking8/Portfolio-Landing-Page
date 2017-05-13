@@ -1,11 +1,11 @@
-#leaf {
-  max-height: 38px;
-  margin-right: 17px;
-  margin-top: -7px;
-  display: inline-block;
+
+body {
+  margin: 20px
+  padding: 25px
+  border: 5px solid rgba(76, 67, 59, 0.83);
 }
 
-#brand {
+#b {
   color: rgba(76, 67, 59, 0.83);
   font-size: 15pt;
 }
@@ -15,17 +15,17 @@
   background-color: rgba(229, 205, 163, 0.55);
 }
 
-.blockquote {
+blockquote {
   margin-top: 240px;
   color: rgba(76, 67, 59, 0.83);
   font-size: 18pt;
 }
 
-.footer {
+footer {
   color: rgba(76, 67, 59, 0.83);
 }
 
-.a {
+a {
   color: rgba(76, 67, 59, 0.83);
   font-family: sans-serif;
   font-weight: lighter;
@@ -42,7 +42,7 @@
   width: 350px;
 }
 
-.img {
+img {
   float: center;
 }
 
@@ -58,7 +58,12 @@
   background-color: orange;
 }
 
-.h1 {
+h1 {
+
   font-size: 32px;
   font-style: italic;
+}
+
+.well h3 {
+
 }
